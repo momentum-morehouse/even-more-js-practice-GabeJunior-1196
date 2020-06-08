@@ -1,7 +1,12 @@
 // Problem 1
 // declare a variable called fruit
 // assign your variable the value 6
-// console log your variable
+// console log your variable    
+
+
+let fruit = 6;
+console.log(fruit)
+ 
 
 
 // write a function called product that accepts two numbers and 
