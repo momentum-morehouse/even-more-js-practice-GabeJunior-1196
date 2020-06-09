@@ -40,13 +40,15 @@ for (let counter = 0; counter < 5; counter++) {
 // write a function called shortWords that takes an array of words and then
 // returns a new array with only the words that are 3 letters long or less
 // call your function on this array ["basin", "pit", "cheese", "bun", "river"]
-function shorts(list) {
-  let shortWords = ["basin", "cheese", "pit", "bun", "river"];
-
-  let length = array.length[3];
-
-  for (for i = 0; i < shortWords.length; i++) {
-
-    if (length = newArray);
+function shortWordsRevised(array) {
+  let testArray = ["basin", "cheese", "pit", "bun", "river"];
+  console.log(shortWordsRevised(testArray))
+  let arrayLength = array.length;
+  // let newArray = [];
+  for (let i = 0; i < arrayLength; i++) {
+    if (array[i].length <= 3) {
+      newArray.push(array[i])
+    }
   }
+  return newArray
 }
